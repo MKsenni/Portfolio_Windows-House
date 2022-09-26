@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-widht, initiale-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body class="body">
+    <header class="header">
+
+        <div class="header__burger burger">
+            <input class="burger__toggle" id="burger__menu-toggle" type="checkbox">
+            <label class="burger__menu-btn" for="burger__menu-toggle">
+                <span></span>
+            </label>
+
+            <ul class="burger__menu">
+                <li class="menu-item"><a href="#main">Главная</a></li>
+                <li class="menu-item"><a href="#service">Наши услуги</a></li>
+                <li class="menu-item"><a href="#production">Продукция</a></li>
+                <li class="menu-item"><a href="#guarantee">Гарантия качества</a></li>
+                <li class="menu-item"><a href="#about">О компании</a></li>
+                <li class="menu-item"><a href="#portfolio">Портфолио</a></li>
+                <li class="menu-item"><a href="#questions">Вопрос-ответ</a></li>
+                <li class="menu-item"><a href="#contacts">Контакты</a></li>
+                <li class="menu-item"><a href="#form-questions">Обратная связь</a></li>
+            </ul>
+        </div>
+
+        <div class="header__conteiner">            
+            <img class="header-image" src="./images/icon.svg" alt="icon">
+            <nav>
+                <ul class="header__nav">
+                    <li class="header__nav-item"><a href="#service">Услуги</a></li>
+                    <li class="header__nav-item"><a href="#production">Продукция</a></li>
+                    <li class="header__nav-item"><a href="#about">О компании</a></li>
+                    <li class="header__nav-item"><a href="#portfolio">Портфолио</a></li>
+                    <li class="header__nav-item"><a href="#questions">Вопрос-ответ</a></li>
+                    <li class="header__nav-item"><a href="#contacts">Контакты</a></li>
+                </ul>
+            </nav>
+            <div class="header__button">
+                <button class="header__button-one"><img class="header__button-img" src="./images/sloy.png"> Заявка на замер</button>
+                <button class="header__button-payment"><img class="header__button-img" src="./images/sloy2.png"> Заказать расчет</button>
+            </div>
+        </div>
+    </header>
+    
+    <main class="main">
+        <div class="main-container">
+            <div class="main-block">
+                <div class="main-block__advantage">
+                    <h1 class="main-block__title"><span><a name="main">Окна Хаус -</a></span><br> Профессиональный подход к остеклению</h1>
+                    <div class="main-block__inner inner-main">
+                        <div class="inner-main__item">
+                            <img class="icon-advantage" src="./images/window_sloy.svg" alt="">
+                            <p class="text-advantage">Современные окна и балконные конструкции по доступным ценам</p>
+                        </div>
+                        <div class="inner-main__item">
+                            <img class="icon-advantage" src="./images/hands_sloy.svg" alt="">
+                            <p class="text-advantage">Квалифицированный подход к решению задач любой сложности</p>
+                        </div>
+                        <div class="inner-main__item">
+                            <img class="icon-advantage" src="./images/tablet_sloy.svg" alt="">
+                            <p class="text-advantage">Гарантия высочайшего качества нашей продукции</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="main-block__application application">
+                    <form action="" class="application__feedback">
+                        <h2 class="application__feedback-subtitle">Вызвать замершика на дом</h2>
+                        <div class="application__feedback-inputs input">
+                            <input class="input__item" type="text" placeholder="Представьтесь, пожалуйста">
+                            <input class="input__item" type="text" placeholder="Номер телефона">
+                            <input class="input__item" type="text" placeholder="E-mail">
+                            <label class="input__label" for="agreement">
+                                <input class="checkbox" type="checkbox" id="agreement">
+                                <span class="element"></span>
+                                <p>Согласен на обработку персональных данных в соответствии с<a href=""> политикой конфиденциальности</a></p></label>
+                        </div>
+                        <button class="application__feedback-button">Отправить заявку</button>
+                        <div class="application__feedback-image">
+                            <img src="./images/roulette.png" alt="roulette">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <section class="services">
+        <div class="container">
+            <h2 class="title-sections"><a name="service"></a>Наши услуги</h2>
+
+            <div class="services-list">
+                <div class="card__item card__item-fone1">
+                    <div class="card__header">
+                        <img class="card__header-icon" src="./images/windowsloy.png" alt="">
+                        <h3 class="card__header-title">Установка пластиковых окон</h3>
+                </div>
+
+                    <p class="card__description">Устанавливаем пластиковые окна Rehau от проверенного производителя с гарантией качества</p>
+                </div>
+
+                <div class="card__item card__item-fone2">
+                    <div class="card__header">
+                        <img class="card__header-icon" src="./images/balconysloy.png" alt="">
+                        <h3 class="card__header-title">Остекление балконов и лоджий</h3>
+                </div>
+
+                    <p class="card__description">Занимаемся остеклением и отделкой балконов и лоджий. Теплое и холодное остекление, изготовление выносов и крыш. Беремся за сложные объекты</p>
+                </div>
+
+                <div class="card__item card__item-fone3">
+                    <div class="card__header">
+                        <img class="card__header-icon" src="./images/housesloy.png" alt="">
+                        <h3 class="card__header-title">Остекление коттеджей и дач</h3>
+                </div>
+
+                    <p class="card__description">Остекление и отделка под ключ: от коттеджей и дач до террас и беседок. Выделяем личного технолога под каждый объект</p>
+                </div>
+
+                <div class="card__item card__item-fone4">
+                    <div class="card__header">
+                        <img class="card__header-icon" src="./images/buildingsloy.png" alt="">
+                        <h3 class="card__header-title">Остекление корпоративных объектов</h3>
+                </div>
+
+                    <p class="card__description">Реализуем сложные проекты по остеклению торговых центров, ресторанов, производственных помещений и офисов</p>
+                </div>
+            
+        </div>
+
+        </div>
+    </section>
+
+    <section class="production">
+        <div class="container">
+            <h2 class="title-sections"><a name="production"></a>Продукция</h2>
+            <div class="production__menu menu">
+                <div class="menu__item"><a class="item" href="">Стандарт</a></div>
+                <div class="menu__item"><a class="item" href="">Бизнес</a></div>
+                <div class="menu__item"><a class="item" href="">Премиум</a></div>
+                <div class="menu__item"><a class="item" href="">Эксклюзив</a></div>
+            </div>
+
+            <div class="production__slider">
+                <div class="production__slider-inner inner">
+                    <div class="inner__image">
+                        <img class="inner__img" src="./images/rama.png" alt="">
+                    </div>
+
+                    <div class="inner__content info">
+                        <div class="info__title">Rehau Blitz New</div>
+                        <div class="info__description">Сохраняют тепло в доме, защищают от шума и вписываются в любой интерьер. Практичный выбор</div>
+
+                        <div class="info__params">
+                            <div class="info__params-item item"><span class="item__title"> Системная глубина</span> <span class="item__space"></span> <span class="item__volume">60/60 мм</span> </div>
+
+                            <div class="info__params-item item"> <span class="item__title">Ширина стеклопакета</span> <span class="item__space"></span> <span class="item__volume">24/31 мм</span></div>
+
+                            <div class="info__params-item item"> <span class="item__title">Воздушные камеры</span> <span class="item__space"></span> <span class="item__volume">3</span></div>
+
+                            <div class="info__params-item item"> <span class="item__title">Теплосопротивление</span> <span class="item__space"></span> <span class="item__volume">0,70 м2С/ВТ</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="guarantee">
+        <div class="container">
+            <div class="guarantee-title"><img src="./images/guarantee_title.svg" alt=""></div>
+            <div class="guarantee__items item">
+                <div class="item__descr">
+                    <img class="img-descr" src="./images/sertificate_sloy.svg" alt="">
+                    <p class="text-descr"><a name="guarantee"></a>Сертифицированный производитель Rehau
+                    </p>
+                </div>
+                <div class="item__descr">
+                    <img class="img-descr" src="./images/innovation_sloy.svg" alt="">
+                    <p class="text-descr">Инновационный оконный завод</p></div>
+                <div class="item__descr">
+                    <img class="img-descr" src="./images/lider_sloy.svg" alt="">
+                    <p class="text-descr">Лидер по переработке профилей Rehau в России</p>
+                </div>
+                <div class="item__descr">
+                    <img class="img-descr" src="./images/equipment_sloy.svg" alt="">
+                    <p class="text-descr">Высокотехнологичное автоматизированное оборудование</p>
+                </div>
+                <div class="item__descr">
+                    <img class="img-descr" src="./images/production_sloy.svg" alt="">
+                    <p class="text-descr">Широкий ассортимент продукции</p>
+                </div>
+            </div>
+        </div>
+        <button class="button-calculation"><img src="./images/guarantee_button.svg">Заказать расчет</button>
+    </section>
+
+    <section class="about">
+        <div class="container">
+            <h2 class="title-sections"><a name="about"></a>О компании</h2>
+            <div class="about__menu menu">
+                <div class="menu__item"><a class="item" href="">Описание</a></div>
+                <div class="menu__item"><a class="item" href="">Как мы работаем</a></div>
+                <div class="menu__item"><a class="item" href="">Отзывы</a></div>
+                <div class="menu__item"><a class="item" href="">Сертификаты</a></div>
+            </div>
+
+            <div class="about-slider slider">
+                <div class="slider__deskr">
+                    <img class="deskr-img" src="./images/about/about_window-house.png" alt="">
+                    <p class="deskr-text">Мы помогаем клиентам подбирать решения, учитывая пожежелания к характеристикам окна и его стоимости. Окно - это объект, которым Вы будете пользоваться много лет, поэтому для нас очень важно, чтобы Вы сделали правильный выбор.
+                    </p>
+                </div>
+
+                <div class="slider__image"></div>
+            </div>
+
+            <div class="about-list">
+                <div class="about-list__item">
+                    <div class="about-icon">
+                        <img src="./images/about/about_prof.svg" alt="">
+                    </div>
+                    <div class="about-desc">
+                        <h3>Профессионализм</h3>
+                        <p>Бригада профессиональных мастеров по монтажу и обслуживанию</p>
+                    </div>
+                </div>
+                <div class="about-list__item">
+                    <div class="about-icon">
+                        <img src="./images/about/about_price.svg" alt="">
+                    </div>
+                    <div class="about-desc">
+                        <h3>Ценообразование</h3>
+                        <p>Лучшие цены на рынке пластиковых окон</p>
+                    </div>
+                </div>
+                <div class="about-list__item">
+                    <div class="about-icon">
+                        <img src="./images/about/about_mobilnost.svg" alt="">
+                    </div>
+                    <div class="about-desc">
+                        <h3>Мобильность</h3>
+                        <p>Заключение договора на дому</p>
+                    </div>
+                </div>
+                <div class="about-list__item">
+                    <div class="about-icon">
+                        <img src="./images/about/about_loyal.svg" alt="">
+                    </div>
+                    <div class="about-desc">
+                        <h3>Лояльность</h3>
+                        <p>99% клиентов рекомендуют нас своим друзьям</p>
+                    </div>
+                </div>
+                <div class="about-list__item">
+                    <div class="about-icon">
+                        <img src="./images/about/about_speed.svg" alt="">
+                    </div>
+                    <div class="about-desc">
+                        <h3>Скорость</h3>
+                        <p>Короткие сроки установки изделий</p>
+                    </div>
+                </div>
+                <div class="about-list__item">
+                    <div class="about-icon">
+                        <img src="./images/about/about_quolity.svg" alt="">
+                    </div>
+                    <div class="about-desc">
+                        <h3>Служба качества</h3>
+                        <p>Безупречное качество и контроль изделий ПВХ</p>
+                    </div>
+                </div>
+            </div>
+
+            <button class="about-btn">
+                <img src="./images/about/about_icon-btn.svg" alt="">
+                Оформить заявку на замер</button>
+        </div>
+    </section>
+
+    <section class="portfolio">
+        <div class="container">
+            <div class="title-sections"><a name="portfolio"></a>Портфолио</div>
+            <div class="portfolio-works">
+                <img class="portfolio-works__image" src="./images/portfolio/potfolio1.png" alt="">
+                <img class="portfolio-works__image" src="./images/portfolio/portfolio2.jpg" alt="">
+                <img class="portfolio-works__image" src="./images/portfolio/portfolio3.png" alt="">
+                <img class="portfolio-works__image" src="./images/portfolio/portfolio4.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="questions">
+        <div class="container">
+            <div class="title-sections"><a name="questions"></a>Вопрос-ответ</div>
+            <div class="questions-list">
+                <details class="questions-list__item"><span>Не более двух недель.</span>
+                    <summary class="answers">Сколько по времени занимает изготовление пластиковых окон?</summary>
+                </details>
+                <details class="questions-list__item"><span>Оплата картой, наличными, по СБП или перевод по реквезитам.</span>
+                    <summary class="answers">Какие существуют способы оплаты?</summary>
+                </details>
+                <details class="questions-list__item"><span>На нашем сайте или при посещении офиса.</span>
+                    <summary class="answers">Где я могу посмотреть образцы?</summary>
+                </details>
+                <details class="questions-list__item"><span>Для того, чтобы не возникло неточностей.</span>
+                    <summary class="answers">Зачем вызывать замерщика? Я могу дать размеры</summary>
+                </details>
+                <details class="questions-list__item"><span>Мы можем посоветовать компетентных партнеров по отделке балконов.</span>
+                    <summary class="answers">Хотелось бы отделать балкон. Поможете?</summary>
+                </details>
+                <details class="questions-list__item"> <span> Нет, команда мастеров все сами аккуратно доставят и внесут.</span>
+                    <summary class="answers">Мне надо нанимать грузчиков для подъема?</summary>
+                </details>
+            </div>
+        </div>
+    </section>
+
+    <section class="contacts">
+        <div class="container">
+            <h2 class="title-sections"><a name="contacts"></a>Контакты</h2>
+            <div class="contacts-list">
+                <div class="contacts-list__info info">
+                    <div class="info__title">Бесплатная консультация:</div>
+                    <div class="info__numbers number">
+                        <img src="./images/contacts/fone.svg" alt="">
+                        <div class="number__item"><a href="tel:8(4932)34-31-40">8 (4932) 34 - 31 - 40</a></div>
+                        <div class="number__item"><a href="tel:8(905)109-31-40">8 (905) 109 - 31 - 40</a></div>
+                    </div>
+                    <div class="info__address"><img class="number__icon" src="./images/contacts/geo.svg" alt=""><a href="https://goo.gl/maps/TrkhAfunpFWPrEdT8" target="_blank">г. Иваново, ул. Генерала Хлебникова, д.54, оф.303</a> </div>
+                    <div class="info__e-mail"><img class="number__icon" src="./images/contacts/mail.svg" alt=""><a href="mailto:okna@haus.ru">okna@haus.ru</a></div>
+                    <div class="info__desc item">
+                        <div class="item__desc">Установку должны выполнять только эксперты. Нам доверяют сотни семей. Узнайте поробнее, какие решения вам подходят. Вы можете приобрести недорогие товары при гарантированно высоком качестве.</div>
+                        <div class="item__socials">
+                            <a href="https://yandex.ru/" target="_blank"><img src="./images/contacts/vk.svg" alt=""></a>
+                            <a href="https://yandex.ru/" target="_blank"><img class="item__socials-2" src="./images/contacts/fb.svg" alt=""></a>
+                            <a href="https://yandex.ru/" target="_blank"><img src="./images/contacts/inst.svg" alt=""></a>
+                            <a href="https://yandex.ru/" target="_blank"><img src="./images/contacts/tg.svg" alt=""></a>
+                            <a href="https://yandex.ru/" target="_blank"><img src="./images/contacts/youtube.svg" alt=""></a>
+                            <a href="https://yandex.ru/" target="_blank"><img src="./images/contacts/ok.svg" alt=""></a>
+                        </div>
+                    </div>
+                    
+                    <div class="info__image">
+                        <img src="./images/contacts/workers.png" alt="" class="workers">
+                    </div>
+                </div>
+
+                <div class="contacts-list__form form">
+                    <form class="form-questions" action="">
+                        <h2 class="form-questions-subtitle"><a name="form-questions"></a>Остались вопросы?</h2>
+                        <div class="form-questions__inputs input">
+                            <input type="text" class="input__item" placeholder="Ваше имя">
+                            <input type="text" class="input__item" placeholder="E-mail">
+                            <textarea type="text" class="feedback" placeholder="Ваш отзыв"></textarea>
+                            <label class="input__label" for="agreement-two">
+                                <input class="checkbox" type="checkbox" id="agreement-two">
+                                <span class="element"></span>
+                                <p>Я согласен(на) на обработку<a href=""> персональных данных</a></p>
+                            </label>
+                        </div>
+                        <button class="form-questions__btn">Отправить сообщение</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="container__name-footer">
+                <img src="./images/footer/footer.svg" alt="">
+                <span>© ООО “Окна Хаус”, 2011 - 2022</span>
+            </div>
+    
+            <div class="container__politics-footer">
+                <a href="">Политика кофиденциальности</a>
+                <a href="">Пользовательское соглашение</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
