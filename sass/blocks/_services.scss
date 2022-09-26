@@ -1,0 +1,117 @@
+.body {
+    font-family: "Roboto", "Arial", sans-serif;
+    font-style: normal;
+    background-color: #F2F2F2;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.title-sections {
+    margin-bottom: 48px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #2F2F51;
+
+    @media screen and (max-width: 992px) {
+        margin-bottom: 30px;
+    }
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.services {
+    margin-bottom: 77px;
+
+    @media screen and (max-width: 992px) {
+        margin-bottom: 0;
+    }
+
+    &-list {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        max-width: 1200px;
+        margin: 0px auto;
+
+        @media screen and (max-width: 992px) {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .card__item {
+            width: 49%;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-color: #fff;
+            margin-bottom: 25px;
+            padding: 55px 0px 38px 50px;
+            border-radius: 3px;
+
+            @media screen and (max-width: 992px) {
+                width: 65%;
+                margin-bottom: 38px;
+            }
+
+            &-fone1 {
+                background-image: url(/images/gradiwindow.png);
+                cursor: pointer;
+                transition: 0.5s;
+            }
+
+            &-fone2 {
+                background-image: url(/images/gradibalconies.png);
+                cursor: pointer;
+                transition: 0.5s;
+            }
+
+            &-fone3 {
+                background-image: url(/images/gradihouse.png);
+                cursor: pointer;
+                transition: 0.5s;
+            }
+
+            &-fone4 {
+                background-image: url(/images/gradibuilding.png);
+                cursor: pointer;
+                transition: 0.5s;
+            }
+
+            &-fone1:hover, &-fone2:hover, &-fone3:hover, &-fone4:hover {
+                // transition: 0.5s;
+                box-shadow: 0 0 10px black;
+            }
+        }
+
+        .card__header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 25px;
+
+            &-title {
+            margin-left: 20px;
+            width: 230px;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 28px;
+            color: #2F2F51;
+            }
+        }
+
+        .card__description {
+            width: 300px;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            color: #2F2F51;
+        }
+    }
+}
+

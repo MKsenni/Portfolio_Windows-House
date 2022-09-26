@@ -1,0 +1,36 @@
+.portfolio {
+
+    .container {
+        background-color: #FFFFFF;
+        border-radius: 3px;
+        margin: 0 auto;
+
+        .title-sections {
+            padding-top: 48px;
+        }
+
+        .portfolio-works {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 0 101px 70px 101px;
+
+            @media screen and (max-width: 992px) {
+                :last-child {
+                    display: none;
+                }
+            }
+
+            &__image {
+                cursor: pointer;
+                border-radius: 3px;
+                transition: 0.5s;
+            }
+
+            &__image:hover {
+                box-shadow: 0 0 10px black;
+                transform: scale(1.1);
+            }
+        }
+    }
+}

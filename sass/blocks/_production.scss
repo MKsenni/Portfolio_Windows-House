@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+}
+
+.production {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0px auto;
+    max-width: 1145px;
+    margin-bottom: 55px;
+    
+
+    .menu {
+        display: flex;
+        justify-content: space-around;
+        max-width: 60%;
+        margin: auto;
+        margin-bottom: 40px;
+
+        @media screen and (max-width: 992px) {
+            max-width: 80%;
+        }
+
+        &__item {
+
+            .item {
+                transition: 0.5s;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 21px;
+                color: #2F2F51;      
+                padding: 10px 26px;
+            }
+    
+            .item:hover {
+                background-color: #EF7F04;
+                font-weight: 700;
+                color: #FFFFFF;
+                border-radius: 3px;
+            }
+        }
+    }
+}
+
+.container {
+
+    @media screen and (max-width: 992px) {
+        margin: 0 54px
+    }
+}
+
+.inner {
+    display: flex;
+    height: 460px;
+    overflow: hidden;
+    border-radius: 3px;
+
+    &__image {
+        width: 50%;
+
+        @media screen and (max-width: 992px) {
+            width: 45%;
+        }
+    }
+
+    &__img {
+        width: 100%;
+
+        @media screen and (max-width: 992px) {
+            height: 100%;
+        }
+    }
+    
+
+    &__content {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: left;
+        align-items: center;
+        background-color: #FFFFFF;
+        padding: 50px 35px;
+        
+        @media screen and (max-width: 992px) {
+            width: 55%;
+            padding-right: 0;
+        }
+    }
+
+    .info__title {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 42px;
+        color: #EF7F04
+    }
+
+    .info__description {
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 21px;
+        width: 69%;
+    }
+
+    .info__params {
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 40px;
+        width: 100%;
+    }
+
+    .item {
+        display: flex;
+
+        &__space {
+            flex-grow: 1;
+            border-bottom: 1px dotted #000000;
+            margin-bottom: 13px;
+        }
+
+        &__volume {
+            width: 24%;
+            color: #2F2F51;
+        }
+    }
+}
+

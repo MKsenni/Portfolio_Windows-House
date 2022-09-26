@@ -1,0 +1,40 @@
+.footer {
+    background-color: #2F2F51;
+
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+            &__name-footer {
+                display: flex;
+                margin: 52px 0 55px 0;
+
+                span {
+                    display: block;
+                    margin-top: 15px;
+                    margin-left: 23px;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 20px;
+                    color: #FFFFFF;
+                }
+            }
+
+            &__politics-footer {
+
+                a {
+                    padding-left: 30px;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 36px;
+                    color: #FFFFFF;
+                    transition: 0.3s;
+                }
+
+                :hover {
+                    opacity: 0.3;
+                }
+            }
+    }
+}
