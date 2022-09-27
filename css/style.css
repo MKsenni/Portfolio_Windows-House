@@ -302,25 +302,25 @@
 }
 
 .services-list .card__item-fone1 {
-  background-image: url(/images/gradiwindow.png);
+  background-image: url(../images/gradiwindow.png);
   cursor: pointer;
   transition: 0.5s;
 }
 
 .services-list .card__item-fone2 {
-  background-image: url(/images/gradibalconies.png);
+  background-image: url(../images/gradibalconies.png);
   cursor: pointer;
   transition: 0.5s;
 }
 
 .services-list .card__item-fone3 {
-  background-image: url(/images/gradihouse.png);
+  background-image: url(../images/gradihouse.png);
   cursor: pointer;
   transition: 0.5s;
 }
 
 .services-list .card__item-fone4 {
-  background-image: url(/images/gradibuilding.png);
+  background-image: url(../images/gradibuilding.png);
   cursor: pointer;
   transition: 0.5s;
 }
@@ -483,7 +483,7 @@
 }
 
 .main {
-  background-image: url("/images/main_fone.png");
+  background-image: url("../images/main_fone.png");
   background-size: cover;
   background-repeat: no-repeat;
   margin-bottom: 67px;
@@ -491,7 +491,7 @@
 
 @media screen and (max-width: 992px) {
   .main {
-    background-image: url("/images/main_fone_992px.png");
+    background-image: url("../images/main_fone_992px.png");
   }
 }
 
@@ -661,7 +661,7 @@
   left: 5px;
   width: 23px;
   height: 24px;
-  background: url(/images/check.svg);
+  background: url(../images/check.svg);
   cursor: pointer;
 }
 
