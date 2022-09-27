@@ -1,11 +1,11 @@
 .main {
-    background-image: url('./images/main_fone.png');
+    background-image: url('../images/main_fone.png');
     background-size: cover;
     background-repeat: no-repeat;
     margin-bottom: 67px;
 
     @media screen and (max-width: 992px) {
-        background-image: url('./images/main_fone_992px.png');
+        background-image: url('../images/main_fone_992px.png');
     }
 
     .main-container {
@@ -163,7 +163,7 @@
                             left: 5px;
                             width: 23px;
                             height: 24px;
-                            background: url(/images/check.svg);
+                            background: url(../images/check.svg);
                             cursor: pointer;
                         }
                     }
