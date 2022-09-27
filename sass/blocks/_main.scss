@@ -1,0 +1,197 @@
+.main {
+    background-image: url('./images/main_fone.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 67px;
+
+    @media screen and (max-width: 992px) {
+        background-image: url('./images/main_fone_992px.png');
+    }
+
+    .main-container {
+        max-width: 1020px;
+        margin: 0 auto;
+
+        .main-block {
+            display: flex;
+            padding-top: 65px;
+
+            @media screen and (max-width: 992px) {
+                padding-top: 0px;
+            }
+
+            &__advantage {
+                padding-top: 60px;
+                padding-right: 52px;
+
+                @media screen and (max-width: 992px) {
+                    width: 70%;
+                    padding: 130px 0px 130px 64px;
+                }
+            }
+                
+            &__title {
+                font-weight: 100;
+                font-size: 36px;
+                line-height: 42px;
+                color: #FFFFFF;
+                margin-bottom: 20px;
+                
+                a {
+                    font-weight: 700;
+                    font-size: 24px;
+                    line-height: 28px;
+                    color: #EF7F04;
+                }
+            }
+
+            .inner-main {
+                display: flex;
+
+                &__item {
+                    width: 33%;
+
+                    .icon-advantage {
+                        height: 90px;
+                        width: 85px;
+                        margin-bottom: 15px;
+                        margin-left: 10px;
+                    }
+
+                    .text-advantage {
+                        font-weight: 400;
+                        font-size: 14px;
+                        line-height: 18px;
+                        color: #FFFFFF;
+                        padding-left: 10px;
+                    }
+                }
+            }
+
+            .application {
+                position: relative;
+                padding-bottom: 65px;
+
+                @media screen and (max-width: 992px) {
+                    display: none;
+                }
+                
+                &__feedback {
+                    text-align: center;
+                    background-color: #FFFFFF;
+                    width: 405px;
+                    border-radius: 10px;
+                    padding: 43px 40px 60px 40px;
+
+                    &-subtitle {
+                        color: #2F2F51;
+                        font-weight: 700;
+                        font-size: 18px;
+                        line-height: 21px;
+                        margin-bottom: 27px;
+                    }
+
+                    .input {
+                        margin-bottom: 24px;
+
+                        &__item {
+                            display: block;
+                            width: 100%;
+                            height: 40px;
+                            margin-bottom: 15px;
+                            padding-left: 16px;
+                            border: none;
+                            background-color: #E2E2E2;
+                            border-radius: 3px;
+                            color: #424268;
+                            }
+                            
+                        &__item::placeholder {
+                            font-weight: 400;
+                            font-size: 14px;
+                            line-height: 16px;
+                            color: #424268;
+                            }
+
+                        &__label {
+                            position: relative;
+                            display: flex;
+                            align-items: center;
+                            font-size: 12px;
+                            font-weight: 400;
+                            line-height: 14px;
+                            text-align: left;
+
+                            .checkbox {
+                                width: 1px;
+                                height: 1px;
+                                overflow: hidden;
+                                clip: rect(0 0 0 0);
+                            }
+
+                            .element {
+                                content: ' ';
+                                display: inline-block;
+                                width: 50px;
+                                height: 25px;
+                                background: #E2E2E2;
+                                border-radius: 3px;
+                                cursor: pointer;
+                                position: relative;
+                                margin-right: 10px;
+                                transition: 0.5s;
+                            }
+
+                            .element:hover {
+                                background: #9c9c9c;
+                            }
+
+                            a {
+                                color: #4B67AF;
+                                transition: 0.3s;
+                            }
+
+                            a:hover {
+                                opacity: 0.5;
+                            }
+                        }
+
+                        &__label input[type="checkbox"]:checked + .element::after {
+                            content: ' ';
+                            position: absolute;
+                            top: -5px;
+                            left: 5px;
+                            width: 23px;
+                            height: 24px;
+                            background: url(/images/check.svg);
+                            cursor: pointer;
+                        }
+                    }
+
+                    &-button {
+                        background-color: #EF7F04;
+                        font-weight: 700;
+                        font-size: 14px;
+                        line-height: 16px;
+                        padding: 19px 40px;
+                        border-radius: 3px;
+                        color: #FFFFFF;
+                        transition: background-color 0.5s;
+                    }
+
+                    &-button:hover {
+                        background-color: #b86409;
+                    }
+
+                    &-image {
+                        position: absolute;
+                        left: -89px;
+                        bottom: 6px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
