@@ -302,25 +302,25 @@
 }
 
 .services-list .card__item-fone1 {
-  background-image: url(../images/gradiwindow.png);
+  background-image: url("../images/gradiwindow.png");
   cursor: pointer;
   transition: 0.5s;
 }
 
 .services-list .card__item-fone2 {
-  background-image: url(../images/gradibalconies.png);
+  background-image: url("../images/gradibalconies.png");
   cursor: pointer;
   transition: 0.5s;
 }
 
 .services-list .card__item-fone3 {
-  background-image: url(../images/gradihouse.png);
+  background-image: url("../images/gradihouse.png");
   cursor: pointer;
   transition: 0.5s;
 }
 
 .services-list .card__item-fone4 {
-  background-image: url(../images/gradibuilding.png);
+  background-image: url("../images/gradibuilding.png");
   cursor: pointer;
   transition: 0.5s;
 }
@@ -661,7 +661,7 @@
   left: 5px;
   width: 23px;
   height: 24px;
-  background: url(../images/check.svg);
+  background: url("../images/check.svg");
   cursor: pointer;
 }
 
@@ -697,7 +697,7 @@
 }
 
 .guarantee .container {
-  background-image: url(/images/guarantee.png);
+  background-image: url("../images/guarantee.png");
   background-size: cover;
   background-repeat: no-repeat;
   padding: 35px 0px 70px 0px;
@@ -855,7 +855,7 @@
 }
 
 .about .container .slider__image {
-  background-image: url(/images/about/about_fone.png);
+  background-image: url("../images/about/about_fone.png");
   background-size: cover;
   background-repeat: no-repeat;
   width: 50%;
@@ -1364,7 +1364,7 @@
   position: absolute;
   width: 100%;
   height: 100%;
-  background: url(/images/contacts/check_contacts.svg);
+  background: url("../images/contacts/check_contacts.svg");
   background-repeat: no-repeat;
   background-position: center;
   cursor: pointer;
